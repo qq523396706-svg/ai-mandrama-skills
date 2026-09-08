@@ -2,11 +2,11 @@
   <img src="assets/readme/ai-mandrama-workflow-hero.webp" alt="AI 漫剧从故事板、人物表演、声音波形、视频时间线到最终成片的完整生产链" width="100%" />
 </p>
 
-<h1 align="center">AI Mandrama Skills</h1>
+<h1 align="center">AI Content Pipeline Skills</h1>
 
 <p align="center">
-  <strong>把“生成几段视频”，升级成“稳定推进一部多集 AI 剧情作品”。</strong><br />
-  一套面向 Agent 的模块化生产系统，从范围、故事和剧本，一直管理到生成、口型、终审与交付。
+  <strong>把零散的 AI 创作能力，组织成可以持续运行的内容生产线。</strong><br />
+  一套可恢复、可审计、可返修的 Agent Skills 系统；首发版本聚焦多集 AI 剧情作品的完整生产链。
 </p>
 
 <p align="center">
@@ -20,7 +20,9 @@
 
 AI 视频真正困难的，通常不是某一个镜头能不能生成，而是：人物能否跨镜保持一致、台词与镜长是否匹配、付费任务是否越过授权、失败后该改哪一层，以及平台返回“成功”之后，最终文件是否真的能交付。
 
-**AI Mandrama Skills 专门管理这些容易失控的环节。** 它不是一个越来越长的万能提示词，也不绑定某个视频平台；它把复杂制作拆成职责清楚的 Agent Skills、可恢复的阶段交付物和明确的批准点，让创作、执行、返修和验收各自有据可查。
+**AI Content Pipeline Skills 专门管理这些容易失控的环节。** 它不是一个越来越长的万能提示词，也不绑定某个视频平台；它把复杂制作拆成职责清楚的 Agent Skills、可恢复的阶段交付物和明确的批准点，让创作、执行、返修和验收各自有据可查。
+
+当前 `2.0.0` 首发包包含 6 个 AI 漫剧专项 Skill。仓库名称为后续扩展预留空间，但不会把尚未发布的能力写成已经具备：小说自动化创作、自动化剪辑与跨平台内容运营只有在完成独立重写、测试和审计后，才会作为新的模块加入。
 
 ## 你能直接得到什么
 
@@ -33,7 +35,7 @@ AI 视频真正困难的，通常不是某一个镜头能不能生成，而是�
 
 ## 为什么它和普通工作流不一样
 
-| 常见断点 | AI Mandrama Skills 的做法 | 实际价值 |
+| 常见断点 | 本仓库的做法 | 实际价值 |
 |---|---|---|
 | 一个 Agent 同时写剧本、改表演、跑生成、做验收 | 总控只协调版本和批准点，专项 Skill 各守一层 | 减少角色混乱和越权修改 |
 | 每次对话都重新解释人物、场景和上一集状态 | 使用项目登记、版本交付物和连续性记录 | 多集项目可暂停、恢复和交接 |
@@ -116,8 +118,8 @@ flowchart LR
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/qq523396706-svg/ai-mandrama-skills.git
-$sourceRoot = (Resolve-Path '.\ai-mandrama-skills\skills').Path
+git clone https://github.com/qq523396706-svg/ai-content-pipeline-skills.git
+$sourceRoot = (Resolve-Path '.\ai-content-pipeline-skills\skills').Path
 $destinationRoot = Join-Path $env:USERPROFILE '.codex\skills'
 New-Item -ItemType Directory -Path $destinationRoot -Force | Out-Null
 
@@ -133,8 +135,8 @@ Get-ChildItem -LiteralPath $sourceRoot -Directory | ForEach-Object {
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/qq523396706-svg/ai-mandrama-skills.git
-source_root="$(cd ai-mandrama-skills/skills && pwd)"
+git clone https://github.com/qq523396706-svg/ai-content-pipeline-skills.git
+source_root="$(cd ai-content-pipeline-skills/skills && pwd)"
 destination_root="${CODEX_HOME:-$HOME/.codex}/skills"
 mkdir -p "$destination_root"
 
