@@ -1,0 +1,2 @@
+batch_id,job_id,shot_id,input_version,prompt_digest,platform,mode,planned_spec,reference_roles,audio_route,cost_limit,attempt_limit,status,platform_receipt,local_file,technical_result,content_result,changed_variable
+,,,,,,,,,,,,DRAFTED,,,,,

@@ -1,0 +1,32 @@
+project:
+  id: ""
+  title: ""
+  purpose: ""
+  audience: ""
+  format: ""
+  episode_scope: ""
+  current_workspace: "SCOPE"
+
+authorizations:
+  external_upload: false
+  paid_generation: false
+  recognizable_person: false
+  voice_replication: false
+  public_release: false
+
+approvals:
+  story_accepted: null
+  script_accepted: {}
+  design_accepted: null
+  timing_accepted: {}
+  generation_allowed: null
+  delivery_accepted: {}
+
+current_files:
+  story: ""
+  design: ""
+  job_register: ""
+  latest_edit: ""
+
+open_items: []
+updated_at: ""

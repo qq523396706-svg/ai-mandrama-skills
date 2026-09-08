@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance批次运营"
+  short_description: "在授权范围内管理多镜视频任务状态重试下载映射与真实文件验收"
+  default_prompt: "使用 $seedance-batch-ops 建立已批准镜头的可追踪生成批次。"

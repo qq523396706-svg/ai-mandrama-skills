@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI漫剧制作总控"
+  short_description: "用版本化交付物和授权检查点协调多集AI剧情视频生产"
+  default_prompt: "使用 $ai-mandrama-production 判断当前生产阶段并给出下一项可验证交付物。"

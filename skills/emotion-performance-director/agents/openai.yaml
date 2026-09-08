@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧情人物表演设计"
+  short_description: "为已批准的剧情镜头设计可观察可生成并可复验的人物表演变化"
+  default_prompt: "使用 $emotion-performance-director 为已批准镜头设计人物表演变化。"

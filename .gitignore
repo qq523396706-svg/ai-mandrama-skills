@@ -1,0 +1,61 @@
+# Credentials and environment state
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials/
+secrets/
+private/
+confidential/
+
+# Customer, source, and production material
+customer-data/
+client-data/
+source-corpus/
+research-archives/
+media/
+outputs/
+renders/
+exports/
+
+# Local tools and temporary data
+.codex/
+.claude/settings.local.json
+.vscode/
+.idea/
+tmp/
+temp/
+cache/
+.cache/
+__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+*.log
+node_modules/
+
+# Generated media and archives
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.zip
+*.7z
+*.rar
+
+# Operating systems
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/

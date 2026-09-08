@@ -1,0 +1,4 @@
+interface:
+  display_name: "漫剧最终文件验收"
+  short_description: "完整播放最终候选并签发带时间证据责任层和复验范围的交付判定"
+  default_prompt: "使用 $mandrama-final-qc 对最终候选文件执行完整交付验收。"

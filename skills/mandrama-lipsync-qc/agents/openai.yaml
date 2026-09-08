@@ -1,0 +1,4 @@
+interface:
+  display_name: "漫剧对白同步质检"
+  short_description: "逐镜播放实际视频检查发声者嘴部动作并给出最小责任层返修路径"
+  default_prompt: "使用 $mandrama-lipsync-qc 检查实际视频中的对白与嘴部同步。"
