@@ -2,7 +2,7 @@
 
 这是一组用于多集 AI 剧情视频生产的 Agent Skills。它们把项目范围、故事、剧本、设计、镜头计划、时长预演、生成、后期和最终验收分开管理，重点解决版本混乱、越过授权、角色漂移、无诊断重试和“任务成功即成片成功”等问题。
 
-本目录是从空白脚手架建立的隔离重写版，不会替换本机正在使用的 Skill。当前仍处于公开授权审查阶段，不是已获准公开发布的开源版本。
+本目录是从空白脚手架建立的隔离重写版，不会替换本机正在使用的 Skill。它与旧版 Skill 和早期发布候选完全分离，并按 MIT 许可证公开发布。
 
 ## 包含内容
 
@@ -45,7 +45,7 @@ STORY → SCRIPT → DESIGN
 ### Windows PowerShell
 
 ```powershell
-git clone <PRIVATE_REPOSITORY_URL> ai-mandrama-skills
+git clone https://github.com/qq523396706-svg/ai-mandrama-skills.git
 $sourceRoot = (Resolve-Path '.\ai-mandrama-skills\skills').Path
 $destinationRoot = Join-Path $env:USERPROFILE '.codex\skills'
 New-Item -ItemType Directory -Path $destinationRoot -Force | Out-Null
@@ -62,7 +62,7 @@ Get-ChildItem -LiteralPath $sourceRoot -Directory | ForEach-Object {
 ### macOS / Linux
 
 ```bash
-git clone <PRIVATE_REPOSITORY_URL> ai-mandrama-skills
+git clone https://github.com/qq523396706-svg/ai-mandrama-skills.git
 source_root="$(cd ai-mandrama-skills/skills && pwd)"
 destination_root="${CODEX_HOME:-$HOME/.codex}/skills"
 mkdir -p "$destination_root"
@@ -120,8 +120,8 @@ done
 
 ## 权利边界
 
-- 当前没有授予开源许可证；参见 [LICENSE-PENDING.md](LICENSE-PENDING.md)。
+- 本仓库内的原创表达按 [MIT License](LICENSE) 授权。
 - 重写过程、已知来源和仍未解决的问题见 [THIRD_PARTY.md](THIRD_PARTY.md) 与 [REWRITE_AUDIT.md](REWRITE_AUDIT.md)。
 - 本仓库不授予任何人物肖像、声音、音乐、字体、图形、品牌、客户内容或第三方 IP 的使用权。
 - 本目录由曾接触旧版材料的同一执行环境重写，因此只能称为隔离重写，不能作为严格 clean-room 法律抗辩。
-- 在最终权利审核和用户明确确认前，仓库应保持私有，不得 push 到公开远端或声明 MIT。
+- 发布审计降低了直接复制风险，但不构成法律意见或对任何司法辖区结果的保证。

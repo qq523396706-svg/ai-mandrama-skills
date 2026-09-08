@@ -21,6 +21,13 @@ Earlier versions were informed by general workflow ideas found in AI film, short
 - [xuanyustudio/LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama)
 - [cyuanxv/ai-mandrama-skills](https://github.com/cyuanxv/ai-mandrama-skills)
 - [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion)
+- [oiuv/ai-short-drama](https://github.com/oiuv/ai-short-drama)
+- [lukasersil/seedance-25](https://github.com/lukasersil/seedance-25)
+- [nolanx-ai/nolanx.ai](https://github.com/nolanx-ai/nolanx.ai)
+- [gaojesse999/ai-scripts](https://github.com/gaojesse999/ai-scripts)
+- [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill)
+- [weeduon/ai-short-drama-studio](https://github.com/weeduon/ai-short-drama-studio)
+- [tianqing-Y/ai-short-drama-workflow](https://github.com/tianqing-Y/ai-short-drama-workflow)
 
 These links are provenance disclosures, not bundled dependencies or claims of endorsement. Their licenses apply to their own materials, not automatically to this rewrite.
 
@@ -34,15 +41,8 @@ The rewritten `emotion-performance-director` uses a new six-part observation mod
 
 Story development, episode writing, independent review, image generation, video prompt compilation, TTS, editing and platform operations may be provided by separate Skills or tools in the user's environment. Their names may appear as invocation interfaces; their files and licenses are not included.
 
-## Release blockers
+## Release review outcome
 
-Do not make this repository public or attach MIT/Apache/another open-source license until all of the following are complete:
+The 2026-09-08 release review compared the rewritten publication text against the old local versions, the unlicensed local research archive and the known public source corpus. All non-zero matches were manually classified. No third-party prose, template, code or asset was identified in the release files; the only 20-character source-corpus overlap in authored documents was part of the required Skill identifier `emotion-performance-director`.
 
-1. similarity screening against old local versions and the known source corpus;
-2. human review of every long or distinctive match;
-3. removal, permission, or isolated attribution for any reused protected expression;
-4. confirmation that all remaining text and templates are owned or validly licensed;
-5. a final privacy, credential and project-content scan; and
-6. explicit approval from the repository owner to create a public remote and push.
-
-Attribution alone does not replace permission. A low automated similarity score is evidence for review, not a legal safe harbor.
+The repository owner then approved public release. The MIT license applies only to the files distributed in this repository. Attribution does not replace permission, and the similarity result is supporting evidence rather than a legal safe harbor.

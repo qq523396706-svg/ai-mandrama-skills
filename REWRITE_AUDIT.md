@@ -8,7 +8,7 @@ Date: 2026-09-08
 - Existing production Skills: read-only and unchanged.
 - Earlier publication candidate: read-only and unchanged.
 - Local projects, customer files, research archives and media: excluded.
-- Remote repository creation, push and public visibility: not authorized in this phase.
+- Remote repository creation, push and public visibility: explicitly authorized by the repository owner after review.
 
 ## Method
 
@@ -30,7 +30,7 @@ After the six entrypoints and metadata were written, official `quick_validate.py
 
 ## Completed structural checks
 
-- 27 publication files totaling 58,383 bytes;
+- 27 publication files totaling 63,733 bytes;
 - six frontmatter names match their directory names;
 - eight relative Markdown links resolve;
 - the coordinator routes to all five bundled specialist Skills;
@@ -57,16 +57,40 @@ The rewritten performance Skill compared with the unlicensed local performance a
 
 The remaining longest matches were required Skill invocation identifiers or short generic domain language. No old wording was copied as a complete body line. These metrics are screening evidence only; they do not determine copyright status or replace human review.
 
+## Known remote source-corpus screening
+
+The final source-corpus pass selected root README/license files and topical Skill, reference, template, prompt and workflow documents from 16 known public repositories. Generated `agents/openai.yaml` files were excluded from the release-text numerator after their generic UI metadata created the only initial long matches. The final comparison covered 13 authored release documents and 709 selected upstream text files.
+
+| Public source | Audited commit | License signal | Release-text 20-character containment | Exact lines ≥16 |
+|---|---|---|---:|---:|
+| `0xadvait/ai-video-skill` | `79b1edf6be61` | MIT | 0.0000% | 0 |
+| `62656456/ai-film-skills` | `678edc06d331` | Apache-2.0 | 0.0000% | 0 |
+| `agentara/skills` | `dcb37f647711` | MIT | 0.0000% | 0 |
+| `cyuanxv/ai-mandrama-skills` | `0142fc16742b` | MIT | 0.0000% | 0 |
+| `gaojesse999/ai-scripts` | `0aa5732d50a6` | Apache-2.0 | 0.0000% | 0 |
+| `HVision-NKU/StoryDiffusion` | `8de45e424887` | Apache-2.0 | 0.0000% | 0 |
+| `lukasersil/seedance-25` | `aa5dfc56e89e` | MIT | 0.0000% | 0 |
+| `nolanx-ai/nolanx.ai` | `595d86364377` | MIT | 0.0000% | 0 |
+| `oiuv/ai-short-drama` | `4f318097c54a` | no standalone license found | 0.0000% | 0 |
+| `OSideMedia/higgsfield-ai-prompt-skill` | `c0b73ab946df` | MIT | 0.0384% | 0 |
+| `TateZhouSiu/create-storyboard-skill` | `4b8662e2fee5` | MIT | 0.0000% | 0 |
+| `tianqing-Y/ai-short-drama-workflow` | `66847f2c12f0` | no standalone license found | 0.0000% | 0 |
+| `weeduon/ai-short-drama-studio` | `b2e484a8d58d` | MIT | 0.0000% | 0 |
+| `wuwangzhang1216/DirectorSKILL` | `c65ae0d14457` | MIT | 0.0000% | 0 |
+| `xuanyustudio/LocalMiniDrama` | `7b6c1a748e9e` | MIT | 0.0000% | 0 |
+| `zenstory-ai/drama-skills` | `84434570784b` | MIT | 0.0000% | 0 |
+
+The four shared 20-character shingles behind the 0.0384% result are consecutive substrings of the required identifier `emotion-performance-director`; they are not copied prose. No authored release document shared a complete normalized line of at least 16 characters with any selected upstream file. This selection-based scan does not claim to enumerate the entire internet or prove legal independence.
+
 ## Decision
 
-Current state: `PUBLIC_REVIEW`.
+Current state: `PUBLIC_RELEASE_APPROVED`.
 
-The rewrite is structurally and operationally ready for private version control. It is not yet approved for a public open-source license because the same execution environment had prior source exposure and the complete remote source corpus has not received final human comparison.
+The rewrite is structurally ready for public version control. The automated evidence, manual classification of every non-zero source-corpus match, exclusion of unlicensed source material and explicit owner approval support publication under MIT. The repository continues to disclose that this was an isolated rewrite by an environment with prior source exposure, not a strict legal clean-room process.
 
-## Remaining release checks
+## Release actions
 
-- review the known remote source corpus for any distinctive match not present in the old local versions;
-- obtain a human rights decision for the remaining concepts influenced by the unlicensed local archive;
-- choose and add an open-source license only after ownership is confirmed;
-- repeat security, link and structure checks on the exact release commit;
-- obtain explicit approval before remote creation, push or public visibility.
+- MIT license selected for the repository's own files;
+- known remote source-corpus review completed and all matches classified;
+- final security, link, structure and Skill validation must run on the exact release tree;
+- public remote creation and push may proceed under the owner's explicit approval.
