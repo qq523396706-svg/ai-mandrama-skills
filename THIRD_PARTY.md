@@ -6,6 +6,8 @@ Review date: 2026-09-08
 
 The six Skills in this directory were written into official blank Skill scaffolds from the local functional specification. No third-party repository tree, Skill file, template, example, image, audio, video, model, customer file, or research archive is packaged here.
 
+The README hero image was generated specifically for this repository and then resized and compressed locally. It does not embed a downloaded stock image, a copied interface or a third-party brand asset.
+
 The same execution environment previously inspected older Skill versions and source audits. This is therefore an isolated rewrite, not a claim that the writer had never seen earlier expression.
 
 ## Known earlier influences

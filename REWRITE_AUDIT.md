@@ -30,13 +30,13 @@ After the six entrypoints and metadata were written, official `quick_validate.py
 
 ## Completed structural checks
 
-- 27 publication files;
+- 28 publication files, including one repository-specific README hero image;
 - six frontmatter names match their directory names;
-- eight relative Markdown links resolve;
+- all relative Markdown links resolve;
 - the coordinator routes to all five bundled specialist Skills;
 - static decisions for authorization waits, partial final checks, wrong-speaker diagnosis and physical-task preservation are present;
 - no TODO scaffold markers remain;
-- no credential pattern, private key, personal email, phone number, local absolute path, known private-project name, media, archive, file over 1 MiB or reparse point was found;
+- no credential pattern, private key, personal email, phone number, local absolute path, known private-project name, production media, archive, file over 1 MiB or reparse point was found;
 - the installed source set remains 27 files and 103,119 bytes;
 - the earlier publication candidate remains clean at commit `50e8d548a13d`.
 
