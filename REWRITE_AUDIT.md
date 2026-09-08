@@ -30,7 +30,7 @@ After the six entrypoints and metadata were written, official `quick_validate.py
 
 ## Completed structural checks
 
-- 27 publication files totaling 63,733 bytes;
+- 27 publication files;
 - six frontmatter names match their directory names;
 - eight relative Markdown links resolve;
 - the coordinator routes to all five bundled specialist Skills;
@@ -92,5 +92,5 @@ The rewrite is structurally ready for public version control. The automated evid
 
 - MIT license selected for the repository's own files;
 - known remote source-corpus review completed and all matches classified;
-- final security, link, structure and Skill validation must run on the exact release tree;
+- final security, link, structure and Skill validation passed on the publication tree;
 - public remote creation and push may proceed under the owner's explicit approval.
